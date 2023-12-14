@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: yellow;
+}
+.body{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.nav{
+    display: flex;
+}
+.first-half{
+    /* width: 10%; */
+    display: flex;
+    /* justify-content: center; */
+}
+.second-half{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.number{
+    font-size: 40px;
+    font-weight: 500;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 500;
+}
+.main-date,.main-date-2{
+    font-size: 20px;
+    color: gray;
+}
+.pannel1{
+    width: 60%;
+    display: flex;
+}
+.pannel1 div{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid gray;
+}
+.pannel2{
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.time{
+    font-size: 18px;
+    color: gray;
+    padding-bottom: 20px;
+}
+.day{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.temperature{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.hero{
+    display: flex;
+}
